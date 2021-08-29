@@ -1,0 +1,24 @@
+<div class="about-section">
+    <h1>About Us </h1>
+    <p>I am 15 year old artist.</p>
+    <p>My art work should reach to countless people of the World is my only Dream.</p>
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column" *ngFor="let g of about">
+      <div class="card">
+  
+        <img src="{{g.img}}" alt="{{g.desc}}" style="width:100%" >
+        <div class="container">
+          <h2>Sakshi Maurya</h2>
+          <p class="title">CEO & Founder</p>
+          <h4 class="mt-2">{{g.name}}</h4>
+          <p class="mt-2">{{g.desc}}</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>

@@ -1,0 +1,140 @@
+<!-- <section class="gallery">
+
+    <div class="container">
+        <h1 class="text-center">My Gallery</h1>
+        <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"  *ngFor="let g of gallery">
+                <div class="box shadow-sm">
+                    <img src="{{g.img}}" alt="{{g.desc}}" width="200px" height="200px">
+                    <h4 class="mt-2">{{g.name}}</h4>
+                    <p class="mt-2">{{g.desc}}</p>
+                    <button class="btn btn-primary btn-sm">Order Now</button>
+    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+ 
+</section> -->
+
+
+
+
+
+
+<!-- <section class="gallery">
+    
+<div class="container">
+    <h1 class="text-center">My Gallery</h1>
+  <div class="row">
+    <div class="col-md-3"  *ngFor="let g of gallery">
+      <div class="cardholder">
+        <div class="card">
+            <img src="{{g.img}}" alt="{{g.desc}}" >
+            <h4 class="mt-2">{{g.name}}</h4>
+            <p class="mt-2">{{g.desc}}</p>
+            <button class="btn btn-primary btn-sm">Share</button>
+
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+</section> -->
+
+<!-- <mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+</mat-paginator> -->
+
+<!-- 
+<mat-tab-group dynamicHeight>
+  <mat-tab label="Sketches"> 
+    <section class="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"  *ngFor="let g of gallerySketches">
+          <div class="cardholder">
+            <div class="card">
+                <img src="{{g.img}}" alt="{{g.desc}}" >
+                <h4 class="mt-2">{{g.name}}</h4>
+                <p class="mt-2">{{g.desc}}</p>
+                <button class="btn btn-primary btn-sm">Share</button>
+    
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    </section> </mat-tab>
+  <mat-tab label="Canvas">
+    <section class="gallery">
+    
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"  *ngFor="let g of galleryCanvas">
+            <div class="cardholder">
+              <div class="card">
+                  <img src="{{g.img}}" alt="{{g.desc}}" >
+                  <h4 class="mt-2">{{g.name}}</h4>
+                  <p class="mt-2">{{g.desc}}</p>
+                  <button class="btn btn-primary btn-sm">Share</button>
+      
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      </section>
+     </mat-tab>
+
+     <mat-tab label="Painting">
+      <section class="gallery">
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"  *ngFor="let g of galleryPainting">
+              <div class="cardholder">
+                <div class="card">
+                    <img src="{{g.img}}" alt="{{g.desc}}" >
+                    <h4 class="mt-2">{{g.name}}</h4>
+                    <p class="mt-2">{{g.desc}}</p>
+                    <button class="btn btn-primary btn-sm">Share</button>
+        
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        </section>
+       </mat-tab>
+</mat-tab-group> -->
+
+
+
+<ul class="gallery">
+  <li class="gallery-card" tabindex="0">
+    <img class="gallery-card__img" alt="" src="https://picsum.photos/400" />
+    <p class="gallery-card__caption">Candy canes ice cream
+    </p>
+  </li>
+  <li class="gallery-card" tabindex="0">
+    <img class="gallery-card__img" alt="" src="https://picsum.photos/600" />
+    <p class="gallery-card__caption">Ice cream
+      biscuit
+    </p>
+  </li>
+  <li class="gallery-card" tabindex="0">
+    <img class="gallery-card__img" alt="" src="https://picsum.photos/650" />
+    <p class="gallery-card__caption">Cream
+      biscuit marzipan
+    </p>
+  </li>
+</ul>
